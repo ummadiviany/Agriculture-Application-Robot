@@ -12,7 +12,9 @@ The four required files for running in your enivroment are
 
 
 ### Installation
-
+'''
+git clone https://github.com/ummadiviany/Agriculture-Application-Robot
+'''
 
 
 ### Testing in your computer
