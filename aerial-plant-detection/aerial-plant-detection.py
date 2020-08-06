@@ -32,7 +32,7 @@ from utils import visualization_utils as vis_util
 
 # Name of the directory containing the object detection module we're using
 MODEL_NAME = 'inference_graph'
-IMAGE_NAME = 'DJI_0015.JPG'
+IMAGE_NAME = 'input.JPG'
 
 # Grab path to current working directory
 CWD_PATH = os.getcwd()
@@ -157,11 +157,11 @@ for y in range(10):
         x2+=300
     y1+=300
     y2+=300
-#cv2.imwrite(r'C:\Users\Aravind GAV\Desktop\Result1.jpg',image2)
-#cv2.imshow('res',image2)
-#cv2.waitKey(0)
-#cv2.destroyAllWindows()
-heat_map=sb.heatmap(data,yticklabels=False,xticklabels=False,cmap="YlGnBu")
-plt.title("Heatmap for the density of corn plants")
+cv2.imwrite('output.jpg',image2)
+cv2.imshow('res',image2)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+#heat_map=sb.heatmap(data,yticklabels=False,xticklabels=False,cmap="YlGnBu")
+#plt.title("Heatmap for the density of corn plants")
 
 plt.show()
