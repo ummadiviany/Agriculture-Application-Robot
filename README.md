@@ -60,5 +60,5 @@ The output image show us the accuracy of model. It detected almost all plant cor
 
 ![Output aerial image with plants detected and given bounding boxex](/aerial-plant-detection/output.jpg)
 
-
+Added from vscode!!!
 
